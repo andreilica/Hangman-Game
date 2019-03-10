@@ -1,0 +1,19 @@
+Codul este alcatuit din 9 functii si main. Functiile secundare sunt:
+	- o functie care este folosita pentru a incepe un nou joc ( deseneaza cadrul jocului si permite jocul in sine )
+	- o functie care este folosita pentru a putea reveni la jocul curent
+	- o functie care este folosita pentru a face alegerea optiunilor din meniu
+	- o functie care este folosita pentru a crea meniul jocului
+	- o functie care este folosita pentru a crea sirul ascuns folosit
+	- o functie care este folosita pentru a cauta caracterul introdus de la tastatura printre sirurile existente in program ( stringul din fisier si stringul ascuns)
+	- o functie care este folosita pentru a afisa desenul omului spanzurat
+	- o functie care este folosita pentru a afisa un mesaj corespunzator in cazul in care jocul a fost pierdut
+	- o functie care este folosita pentru a afisa un mesaj corespunzator in cazul in care jocul a fost castigat
+	- o functie care este folosita pentru a edita string-urile gasite in fisierele de input
+
+In main se initializeaza fereastra folosita pentru joc si este apelata prima functie (menu) pentru a crea jocul in sine. Totodata, sunt verificate introducerea de argumente in linia de comanda si daca fisierele primite ca parametrii sunt valide. 
+
+Am realizat cerintele 1, 2, 3 (partial), 4.
+Dupa rularea executabilului se poate observa meniul (New Game, Resume Game, Quit). Prin alegerea optiunii New Game se incepe un nou joc. In acest moment va fi desenat cadrul jocului propriu-zis, iar jocul incepe. Prin apasarea tastei Q se revine la meniul principal. In partea de jos a ecranului se pot observa data si ora curenta care se actualizeaza la fiecare introducere de caracter.
+
+Ca BONUS am adaugat o nota de culoare jocului si i-am imbunatatit design-ul.
+
